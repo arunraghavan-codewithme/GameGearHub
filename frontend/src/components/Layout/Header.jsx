@@ -56,12 +56,10 @@ const Header = ({ activeHeading }) => {
       <div className={`${styles.section}`}>
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
           <div>
-            <Link to="/">
-              <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-                alt=""
-              />
+            <Link to="/" className="text-xl font-bold">
+              GameGearHub
             </Link>
+
           </div>
           {/* search box */}
           <div className="w-[50%] relative">
@@ -70,7 +68,7 @@ const Header = ({ activeHeading }) => {
               placeholder="Search Product..."
               value={searchTerm}
               onChange={handleSearchChange}
-              className="h-[40px] w-full px-2 border-[#3957db] border-[2px] rounded-md"
+              className="h-[40px] w-full px-2 border-[#000000] border-[2px] rounded-md"
             />
             <AiOutlineSearch
               size={30}
@@ -110,7 +108,7 @@ const Header = ({ activeHeading }) => {
       <div
         className={`${
           active === true ? "shadow-sm fixed top-0 left-0 z-10" : null
-        } transition hidden 800px:flex items-center justify-between w-full bg-[#3321c8] h-[70px]`}
+        } transition hidden 800px:flex items-center justify-between w-full bg-gradient-to-r from-[#FF8106] to-[#9800FF] h-[70px]`}
       >
         <div
           className={`${styles.section} relative ${styles.noramlFlex} justify-between`}
@@ -217,7 +215,7 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+                src="https://res.cloudinary.com/dwa2juwf6/image/upload/v1736255550/11/h8yf071yvbkho23qqrno.png"
                 alt=""
                 className="mt-3 cursor-pointer"
               />
@@ -270,7 +268,7 @@ const Header = ({ activeHeading }) => {
                 <input
                   type="search"
                   placeholder="Search Product..."
-                  className="h-[40px] w-full px-2 border-[#3957db] border-[2px] rounded-md"
+                  className="h-[40px] w-full px-2 border-[#000000] border-[2px] rounded-md"
                   value={searchTerm}
                   onChange={handleSearchChange}
                 />
