@@ -164,7 +164,6 @@ https://github.com/user-attachments/assets/dc61e0de-1e2b-44f6-a2c3-efbb7fdfa36d
 | **Heriss Raj A/L Ravi** | UI/UX Designer and Frontend Developer: Figma designs, React components, styling, branding |
 | **Sharvvesh A/L Sukumaran** ([@SharrSuku](https://github.com/SharrSuku)) | Backend Developer and Content Manager: data structure, product filtering, wishlist, FAQ content |
 
-Original repository: [SharrSuku/GameGearHub](https://github.com/SharrSuku/GameGearHub)
 
 ## 📄 License
 
