@@ -151,9 +151,10 @@ SMTP_PASSWORD=
 
 ## 🎥 Demo Video
 
-<!-- Drag your short video (under a minute) into the GitHub editor and paste the link it generates here. -->
 
-*Demo video coming soon.*
+https://github.com/user-attachments/assets/dc61e0de-1e2b-44f6-a2c3-efbb7fdfa36d
+
+
 
 ## 👥 Team
 
